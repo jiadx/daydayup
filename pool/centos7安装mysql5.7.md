@@ -11,7 +11,7 @@
 5.  检查mysql 的运行状态  
     service mysqld status或者systemctl status mysqld.service
 
-###二、环境配置
+### 二、环境配置
 
 1.  获取root用户临时密码  
     grep 'temporary password' /var/log/mysqld.log
