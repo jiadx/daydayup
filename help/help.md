@@ -21,8 +21,8 @@ Alternatively,
   - And this
 #  Images
 If you want to embed images, this is how you do it:
-
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png | width=48)
+<img src="https://octodex.github.com/images/yaktocat.png" height="100" width="100">
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 #  Headers 和 Quotes
 ## Structured documents
 
