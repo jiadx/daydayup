@@ -28,7 +28,7 @@
 5.  授权其他电脑远程连接  
     GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '123456' WITH GRANT OPTION;  
     FLUSH PRIVILEGES;
-6.  my.conf配置
+6.  my.conf配置(主要是EMM配置)
 ```
     sql_mode = "STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION"
     skip-external-locking
