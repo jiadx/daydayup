@@ -1,6 +1,6 @@
-以下安装都是在root用户下安装，普通用户获取 root权限
-一、mysql安装
-1.下载到本地再上传到服务器或者使用wget直接下载
+##以下安装都是在root用户下安装，普通用户获取 root权限
+###一、mysql安装
+#####1.下载到本地再上传到服务器或者使用wget直接下载
 wget http://repo.mysql.com/mysql57-community-release-el7-10.noarch.rpm
 2.命令安转软件源
 sudo rpm -Uvh xxxxx.rpm
@@ -11,8 +11,8 @@ service mysqld start或者systemctl start mysqld.service
 5.检查mysql 的运行状态
 service mysqld status或者systemctl status mysqld.service
 
-二、环境配置
-1.获取root用户临时密码
+###二、环境配置
+#####1.获取root用户临时密码
 grep 'temporary password' /var/log/mysqld.log
 2.临时密码登录
 mysql -uroot -p
