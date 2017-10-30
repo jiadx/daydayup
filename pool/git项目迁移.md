@@ -1,5 +1,5 @@
 ##  git  服务迁移（保留所有提交记录）
-### 一、生成sshm密钥
+### 一、生成ssh密钥
 1.  通过git config --list 查看配置文件中user.name和user.email
 
     <img src="../images/git-config.png">
