@@ -27,13 +27,16 @@
     <img src="../images/TortoiseGit.png">
 
 ### 二、本地仓库更改  (以DC为例)
-1.  保证本地库的版本号不晚于原服务器版本  
-  
-    操作如下：  
-    <img src="../images/git-pull.png">
-2.  切换到master分支(已master分支为例，其他多个分支和master一样)  
-    
-    <img src="../images/git-change.png">
+1. 方法一  
+    -   保证本地库的版本号不晚于原服务器版本  
+    -   操作如下：  
+        <img src="../images/git-pull.png">
 
-    其中 git remote remove origin 和 git remote add origin可以合并为一个命令:
+    -   切换到master分支(已master分支为例，其他多个分支和master一样)
+        <img src="../images/git-change.png">
+
+    -   其中 git remote remove origin 和 git remote add origin可以合并为一个命令:  
     git remote set-url origin http://ip:port:xxxx.git
+
+2. 方法二
+    -   重新克隆项目
